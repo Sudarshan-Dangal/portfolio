@@ -1,14 +1,241 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Someone - Portfolio</title>
+    <meta name="description" content="Someone is full stack developer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/skill.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/workcount.css" />
+    <link rel="stylesheet" href="css/education.css" />
 </head>
 
 <body>
+    <div class="overlay"></div>
+    <nav class="sidebar">
+        <i id="hamburger" class="fa-solid fa-bars sidebar__hamburger"></i>
 
+        <div class="sidebar__content">
+            <img class="sidebar__image" src="Sudarshan1.jpeg" alt="Profile Image" />
+            <h1 class="sidebar__name">Sudarshan Dangal</h1>
+            <h2 class="sidebar__job">Engineering Student <span>in Nepal</span></h2>
+
+            <ul class="sidebar__list">
+                <li class="sidebar__list__item">
+                    <a href="#hero">home</a>
+                </li>
+                <li class="sidebar__list__item">
+                    <a href="#about">about</a>
+                </li>
+                <li class="sidebar__list__item">
+                    <a href="#education">education</a>
+                </li>
+                <li class="sidebar__list__item">
+                    <a href="#skills">skills</a>
+                </li>
+                <li class="sidebar__list__item">
+                    <a href="#contact">contact</a>
+                </li>
+            </ul>
+
+            <p class="sidebar__copyright">
+                &copy; 2026 All rights reserved | Made with &#128150; by
+                <span>Sudarshan</span>
+            </p>
+        </div>
+    </nav>
+    <section id="hero">
+        <h1>
+            Hi! <br />
+            its me Sudarshan <br />
+            I am an Engineering student
+        </h1>
+        <p>Electronics, Communication & Information Engineer</p>
+        <button onclick="location.href = 'mailto:dangalsudarshan123@gmail.com'">
+            Contact Me ✉️
+        </button>
+    </section>
+    <div class="section__divider"></div>
+    <section id="about" class="section">
+        <span class="section__title" style="font-size: large;">
+            <h2>About me</h2>
+        </span><br>
+        <h2 class="section__subtitle" style="font-size: 30px; font-weight: bold;">Who am i?</h2>
+
+        <p class="about__description">
+            <strong>Hi! I am Sudarshan Dangal.</strong>
+            I am a passionate engineering student with a strong interest in electronics, communication, and information
+            technology. I love exploring new technologies and applying my knowledge to solve real-world problems. My
+            goal is to contribute to innovative projects that make a positive impact on society.
+        </p>
+
+        <p class="about__description">
+            With a solid foundation in engineering principles and hands-on experience in various projects, I am eager to
+            collaborate with like-minded individuals and organizations. Let's connect and create something amazing
+            together!
+        </p>
+
+        <div class="about__skills">
+            <div class="about__box">
+                <i class="fa-solid fa-ear-listen"></i>
+                <h3>Hardware Design</h3>
+            </div>
+            <div class="about__box">
+                <i class="fa-solid fa-globe"></i>
+                <h3>Web design</h3>
+            </div>
+            <div class="about__box">
+                <i class="fa-solid fa-database"></i>
+                <h3>Software</h3>
+            </div>
+            <div class="about__box">
+                <i class="fa-solid fa-mobile"></i>
+                <h3>Robotics</h3>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="section">
+        <p class="section__title" style="font-size: 30px; font-weight: bolder;">Education</p>
+        <p class="section__subtitle">my education</p>
+        <div class="edu__container">
+            <div class="edu__box">
+                <h2>
+                    Secondary Education<br />
+                    <p class="stream">[9 to 10] &nbsp;&nbsp;&nbsp;[NEB]</p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span> Baisakh 2076 - chhaitra 2077</span>
+                </h2>
+                <h3>Bloom Nepal School</h3>
+            </div>
+            <div class="edu__box">
+                <h2>
+                    Higher Secondary(+2) <br />
+                    <p class="stream">[Science] &nbsp;&nbsp;&nbsp;[NEB]</p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span> Shrawan 2078 - Baisakh 2080</span>
+                </h2>
+                <h3>Capital College & Research Center</h3>
+            </div>
+            <div class="edu__box">
+                <h2>
+                    Bachelor of Engineering<br />
+                    <p class="stream">[BEI] &nbsp;&nbsp;&nbsp;[IOE]</p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span>Magh 2080 - Running</span>
+                </h2>
+                <h3>National College of Engineering</h3>
+            </div>
+        </div>
+    </section>
+    <section id="work__count">
+        <span>1000+</span>
+        <span>cups of tea</span>
+        <span>5+</span>
+        <span>projects</span>
+        <span>0</span>
+        <span>clients</span>
+        <span>5</span>
+        <span>partners</span>
+    </section>
+    <section id="skills" class="section">
+        <span class="section__subtitle" style="font-size: 30px;">My skills</span>
+        <p>
+            Along with my skills i am constantly learning new things to improve myself.
+        </p><br>
+        <div class="skill__box">
+            <div class="skill">
+                <span>C++ </span>
+                <div class="skill__percent__box">
+                    <div class="skill__percent" style="width: 75%; background: #53acec; color: #53acec">
+                        <span>75%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>canva</span>
+                <div class="skill__percent__box">
+                    <div class="skill__percent" style="width: 60%; background: #ec5453; color: #ec5453">
+                        <span>60%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>HTML5</span>
+                <div class="skill__percent__box">
+                    <div class="skill__percent" style="width: 90%; background: #f9bf3f; color: #f9bf3f">
+                        <span>90%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>CSS3</span>
+                <div class="skill__percent__box">
+                    <div class="skill__percent" style="width: 85%; background: #a84cb8; color: #a84cb8">
+                        <span>85%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>Wordpress</span>
+                <div class="skill__percent__box">
+                    <div class="skill__percent" style="width: 70%; background: #2fa499; color: #2fa499">
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>Arduino Programming</span>
+                <div class="skill__percent__box">
+                    <div class="skill__percent" style="width: 65%; background: #4054b2; color: #4054b2">
+                        <span>65%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+    <section id="contact" class="section">
+        <span class="section__title" style="font-size: 20px;">Get in touch</span><br><br>
+        <h1 class="section__subtitle" style="font-size: 30px;text-transform: uppercase;">contact me </h1>
+
+        <form action="" id="contactForm" class="contact__form" onsubmit="submitForm(event)">
+            <input type="text" placeholder="Name" id="name" name="name" class="contact__input" />
+            <input type="text" placeholder="Email" id="email" name="email" class="contact__input" />
+            <textarea id="message" class="contact__textarea" name="message" placeholder="Message" rows="4"></textarea>
+            <button class="contact__button" type="submit">Send Message</button>
+        </form>
+    </section>
 </body>
+<script>
+    const hamburger = document.getElementById("hamburger");
+    const body = document.body;
+    const sidebarContent = document.querySelector('.sidebar__content');
+
+    // Toggle sidebar on hamburger click
+    hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("sidebar__hamburger__translate");
+
+        if (sidebarContent) sidebarContent.classList.toggle('open');
+
+        body.classList.toggle('sidebar-open');
+    });
+</script>
 
 </html>

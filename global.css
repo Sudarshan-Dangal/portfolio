@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.section__divider {
+  background-color: #fff;
+  height: 1px;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(179, 218, 205);
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  all: unset;
+  display: block;
+}
+
+ul,
+li {
+  all: unset;
+}
